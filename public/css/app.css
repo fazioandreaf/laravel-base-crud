@@ -10,12 +10,35 @@
   color: white;
 }
 
+* body a {
+  color: white;
+}
+
+* body a:hover {
+  color: green;
+}
+
 * body * {
   padding: 5px;
 }
 
 * body ul {
   list-style-type: none;
+}
+
+* body form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+* body .add {
+  position: fixed;
+}
+
+* body .add a {
+  text-decoration: none;
+  color: purple;
 }
 
 * body header {

@@ -20,7 +20,7 @@
     <li>
     {{$single_ospite->document_number}}
     </li>
-
 </ul>
+<a href="{{route('home')}}">Per ritornare indietro</a>
 
 @endsection

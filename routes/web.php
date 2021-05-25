@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\controller_db;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,3 +19,5 @@ Route::get('/', function () {
 });
 Route::get('/pages/home','controller_db@home')->name('home');
 Route::get('/ospite/{id}','controller_db@ospite_description')->name('ospite_description');
+Route::get('/form','controller_db@form_page')->name('form_page');
+Route::post('/ospite','controller_db@insert_date')->name('insert_date');

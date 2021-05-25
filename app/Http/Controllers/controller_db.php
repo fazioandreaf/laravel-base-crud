@@ -16,7 +16,12 @@ class controller_db extends Controller
         $single_ospite=Ospiti::findOrFail($id);
         // dd($single_ospite);
         return view('pages.single_ospite',compact('single_ospite'));
+    }
+    function form_page(){
+        return view('pages.form_page');
 
-
+    }
+    function insert_date(){
+        
     }
 }
