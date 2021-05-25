@@ -1,0 +1,5 @@
+GOAL: sulla base di quanto visto a lezione, creare il necessario per fare le seguenti pagine sull'entita' ospiti del dbhotel:
+- home: lista di tutti gli ospiti (nome e cognome), link a dettagli ospite e link al form per creare nuovo ospite
+- ospite: dettagli aggiuntivi del singolo ospite
+- create: form per l'inserimento di un nuovo ospite
+NOTE: ricordo che per far funzionare il form serve un'altra rotta che ne prenda i risultati, li carichi in db, e decida dove far tornare l'utente dopo aver ultimato le operazioni
