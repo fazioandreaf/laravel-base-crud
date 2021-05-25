@@ -3,5 +3,22 @@
     padding: 0;
     box-sizing: border-box;
     body {
+        text-align: center;
+        * {
+            padding: 5px;
+        }
+        ul {
+            list-style-type: none;
+        }
+        background-color: lightgrey;
+        color: white;
+        header {
+            margin-bottom: 50px;
+            color: grey;
+        }
+        footer {
+            margin-top: 50px;
+            color: grey;
+        }
     }
 }

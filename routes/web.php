@@ -17,3 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/pages/home','controller_db@home')->name('home');
+Route::get('/ospite/{id}','controller_db@ospite_description')->name('ospite_description');

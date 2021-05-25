@@ -4,7 +4,7 @@
 <ul>
     <li>
 
-        <a href="">
+        <a href="{{route('ospite_description',$item->id)}}">
 
             {{$item->name}}
             {{$item->lastname}}

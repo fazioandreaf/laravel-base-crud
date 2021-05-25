@@ -4,3 +4,27 @@
   box-sizing: border-box;
 }
 
+* body {
+  text-align: center;
+  background-color: lightgrey;
+  color: white;
+}
+
+* body * {
+  padding: 5px;
+}
+
+* body ul {
+  list-style-type: none;
+}
+
+* body header {
+  margin-bottom: 50px;
+  color: grey;
+}
+
+* body footer {
+  margin-top: 50px;
+  color: grey;
+}
+
